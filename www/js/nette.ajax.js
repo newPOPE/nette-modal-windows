@@ -1,0 +1,1 @@
+../../vendor/venne/nette-ajax/client-side/nette.ajax.js

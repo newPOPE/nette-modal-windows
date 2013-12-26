@@ -1,0 +1,211 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "bf3c2f1a8c57839e733e5b53d988ad7b",
+    "packages": [
+        {
+            "name": "dg/adminer-custom",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dg/adminer-custom.git",
+                "reference": "7047037f3dbd16032c3cfa4a7091ce11fa83590a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dg/adminer-custom/zipball/7047037f3dbd16032c3cfa4a7091ce11fa83590a",
+                "reference": "7047037f3dbd16032c3cfa4a7091ce11fa83590a",
+                "shasum": ""
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Customization for the best database management tool written in PHP, Adminer",
+            "time": "2013-10-16 10:46:14"
+        },
+        {
+            "name": "nette/nette",
+            "version": "v2.0.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/nette.git",
+                "reference": "695f643c26c2326f08424fee138515fa286a0e07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/nette/zipball/695f643c26c2326f08424fee138515fa286a0e07",
+                "reference": "695f643c26c2326f08424fee138515fa286a0e07",
+                "shasum": ""
+            },
+            "require": {
+                "ext-iconv": "*",
+                "ext-tokenizer": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "nette/tester": "0.9.*"
+            },
+            "suggest": {
+                "ext-fileinfo": "*",
+                "ext-gd": "*",
+                "ext-mbstring": "*",
+                "ext-memcache": "*",
+                "ext-pdo": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Nette/loader.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "http://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "http://nette.org/contributors"
+                }
+            ],
+            "description": "Nette Framework - innovative framework for fast and easy development of secured web applications in PHP. Write less, have cleaner code and your work will bring you joy.",
+            "homepage": "http://nette.org",
+            "keywords": [
+                "Forms",
+                "database",
+                "dbal",
+                "debugging",
+                "framework",
+                "images",
+                "latte",
+                "mailing",
+                "micro",
+                "mvc",
+                "neon",
+                "templating"
+            ],
+            "time": "2013-11-05 18:47:49"
+        },
+        {
+            "name": "venne/nette-ajax",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pepakriz/nette.ajax.js.git",
+                "reference": "05e46ff7523c6f0397d6ee61169d5552e5e23316"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pepakriz/nette.ajax.js/zipball/05e46ff7523c6f0397d6ee61169d5552e5e23316",
+                "reference": "05e46ff7523c6f0397d6ee61169d5552e5e23316",
+                "shasum": ""
+            },
+            "suggest": {
+                "janmarek/webloader": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "VojtechDobes": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vojtěch Dobeš",
+                    "email": "me@vojtechdobes.com"
+                }
+            ],
+            "description": "Flexible utility script for AJAX. Supports snippets, redirects etc.",
+            "homepage": "https://github.com/vojtech-dobes/nette.ajax.js",
+            "keywords": [
+                "ajax",
+                "extension",
+                "nette"
+            ],
+            "time": "2013-09-14 09:12:32"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "nette/tester",
+            "version": "v0.9.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/tester.git",
+                "reference": "6a66b714cf9eb23548af2418085bed30daea8903"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/tester/zipball/6a66b714cf9eb23548af2418085bed30daea8903",
+                "reference": "6a66b714cf9eb23548af2418085bed30daea8903",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "bin": [
+                "Tester/tester",
+                "Tester/coverage-report"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Tester/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "http://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "http://nette.org/contributors"
+                }
+            ],
+            "description": "An easy-to-use PHP Unit Testing framework.",
+            "homepage": "http://nette.org",
+            "keywords": [
+                "nette",
+                "testing",
+                "unit"
+            ],
+            "time": "2013-12-11 17:10:48"
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "venne/nette-ajax": 20
+    },
+    "platform": {
+        "php": ">= 5.3.0"
+    },
+    "platform-dev": [
+
+    ]
+}
